@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+body{
+    background-color: bisque;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-image: linear-gradient(to bottom,#3CDC83, #195A36);
+    padding: 8px;
+}
+header > h1{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.445);
+}
+header > p{
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.445);
+}
+header  > nav > a{
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+    text-align: left;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.445);
+}
+header > nav > a:hover{
+    background-color: #2ada79;
+    padding: 5px;
+    border-radius: 10px;
+}
+main{
+    background-color: white;
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
+}
+main > section > h2{
+    color: #195A36;
+    padding-bottom: 10px;
+    font-size: 35px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.103);
+}
+main > section > p{
+    text-align: justify;
+    text-indent: 20px;
+    padding: 10px;
+}
+main > section > .img{
+    display: block;
+    text-align: center;
+}
+main > section > h3{
+    background-image: linear-gradient(to right, #C5EBD6, #ffffff);
+    color: #195A36;
+    padding-left: 4px;
+}
+div.video{
+    background-color: #195A36;
+    margin: 0px -20px -20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-bottom: 57.1%;
+    position: relative;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+main > .listas h4{
+    background-color:#31b86d;
+    color: rgb(245, 245, 245);
+    font-size: 1.5em;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    margin-top: 20px;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.37);
+}
+.listas{
+    background-color: #C5EBD6;
+    border-radius: 10px 10px 5px 5px ;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.377);
+}
+main > .listas > div{
+    margin-left: 5px;
+    list-style: none;
+}
+
+div > li::before{
+    content: "✔";
+}
+.artigo{
+    text-align: justify;
+    text-indent: 20px;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #00853c;
+}
+a:hover{
+    background-color: #48aa74;
+    color: rgb(59, 117, 67);
+    border-radius: 5px;
+}
+footer{
+    background-color: #195A36;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    margin-top: 20px;
+}
